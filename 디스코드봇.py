@@ -48,5 +48,5 @@ async def on_message(message):
        embed.set_thumbnail(url=message.author.avatar_url)
        await message.channel.send(message.channel, embed=embed)
 
-access_token = os.environ['BOT_TOKEN']
+access_token = os.environ["BOT_TOKEN"]
 client.run('access_token')
